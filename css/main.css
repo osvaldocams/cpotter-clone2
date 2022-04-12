@@ -19,3 +19,53 @@ body{
 a{
     text-decoration: none;
 }
+
+/* HEADER */
+/* DESK */
+header{
+    padding: 20px;
+}
+.header_container{
+    max-width: 1150px;
+    margin: 0 auto;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid red;
+}
+.n-list{
+    display: flex;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    align-items: center;
+}
+.n-list li{
+    list-style: none;
+    margin-right: 40px;
+}
+.n-list li a{
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.n-button{
+    background-color: var(--griffindor);
+    padding: 8px 12px;
+    border: var(--yellor-potter) solid 2px;
+    border-radius: 10px;
+    color: var(--yellor-potter);
+    cursor: pointer;
+    
+}
+.n-button a{
+    color: var(--yellor-potter);
+    font-weight: 500;
+    letter-spacing: normal !important;
+}
+.n-button:hover{
+    background-color: var(--yellor-potter);
+    border: var(--griffindor) 2px solid;
+}
+.n-button:hover a{
+    color: var(--griffindor);
+}
