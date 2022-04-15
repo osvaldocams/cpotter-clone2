@@ -202,3 +202,17 @@ a{
         display: grid;
     }
 }
+
+
+/* section1 */
+.wallpaper{
+    height: 700px;
+}
+.wallpaper-container{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/harry_potter_wallpaper_digital_design____11_by_sefabaris713_de5yl8r-fullview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
