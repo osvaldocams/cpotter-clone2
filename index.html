@@ -25,11 +25,28 @@
                 <li class="nav-e"><a href="#">blog</a></li>
                 <li class="nav-e"><a href="#">reto la mejor casa de hogwarts</a></li>
                 <li class="nav-button"><a href="#">NUESTRA TIENDA</a></li>
+                <button type="button" class="close">
+                    <span class="crose1"></span>
+                    <span class="crose2"></span>
+                </button>
             </ul>
         </div>
     </header>
     <script>
+        const btn = document.querySelector('.ham');
+        const nav = document.querySelector('.navigator')
+        const dark = document.querySelector('.darker')
+        const cierre = document.querySelector('.close')
 
+        btn.addEventListener('click', ()=>{
+            nav.classList.toggle('activado');
+            dark.style.display = 'block';
+        });
+
+        cierre.addEventListener('click', ()=>{
+            nav.classList.toggle('activado');
+            dark.style.display = 'none';
+        });
 
 
 
