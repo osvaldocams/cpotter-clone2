@@ -133,6 +133,9 @@ a{
     height: 3px;
     background-color: var(--negro-texto);
 }
+#selected{
+    color: var(--yellor-potter);
+}
 
 @media(max-width:980px){
     .navigator{
@@ -211,7 +214,7 @@ a{
 .wallpaper-container{
     width: 100%;
     height: 100%;
-    background-image: url(../assets/harry_potter_wallpaper_digital_design____11_by_sefabaris713_de5yl8r-fullview.jpg);
+    background-image: url(../assets/portada.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
