@@ -399,7 +399,7 @@ a{
 }
 .youtube-img img{
     width: 100%;
-} */
+}
 
 @media(min-width:768px){
     .description_container{
@@ -444,5 +444,16 @@ a{
         margin: 60px auto;
     }
 
-
+    /* section5 */
+    .youtube_container{
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+    .youtube-img{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .youtube-text h2{
+        margin-top: 40px;
+    }
 }
